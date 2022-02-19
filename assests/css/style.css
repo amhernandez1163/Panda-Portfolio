@@ -46,6 +46,11 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header nav ul li a:hover {
+    letter-spacing: -.04em ;
+    background-color: #e8d0c2;
+}
+
 .hero {
     width: auto;
     margin: 0 15px 0 15px;
@@ -70,7 +75,7 @@ header nav ul li a {
 .hero-info ul li {
     color: #ffffff;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
     text-shadow: 0 0 10px rgba(255, 51, 153, 0.5);
 }
 
@@ -96,30 +101,36 @@ header nav ul li a {
 
 .content-container h1 {
     margin: 15px 0 15px 0;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 20px;
     text-shadow: 0 0 10px rgba(51, 255, 153, 0.5);
 }
 
-.container-content img {
+.content img {
     max-height: 50%;
     max-width: 50%;
     border: solid #ffffff;
 }
 
-.container-content img:hover {
+#the-genesis { 
+    max-height: 70%;
+    max-width: 70%;
+}
+
+.content img:hover {
     transform: scale(.8)
 }
 
-.container-content p {
+.content p {
+    color: #757575;
     font-weight: bolder;
-    font-size: larger;
-    padding: 3px 0 3px 0;
-    text-shadow: 0 0 10px rgba(51, 255, 153, 0.8);
+    font-size: x-large;
+    padding: 8px 0 5px 0;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
-.about-me {
+.about-me-section {
     margin: 15px 15px 15px 15px;
     width: 40%;
     float: right;
@@ -129,25 +140,47 @@ header nav ul li a {
     align-items: center;
 }
 
-.about-me img {
+.selfie img {
     border: solid #ffffff;
     max-height: 50%;
     max-width: 50%;
 }
 
-.about-me h1, .about-me h2 {
+.about-me-section h1 {
     margin: 15px 0 15px 0;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
-    margin-bottom: 20px;
     text-shadow: 0 0 10px rgba(153, 51, 255, 0.5);
 }
 
-.about-me h2 {
-    margin-bottom: 3px;
+.selfie h1 {
+    margin-bottom: 0px;
 }
 
-.about-me p {
-
+.selfie p {
+    margin-top: 0px;
+    color: #ffffff;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
 }
+
+.summary p {
+    margin: 0px 10px 10px 10px;
+    color: #757575;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+}
+.socials img {
+    max-height: 30%;
+    max-width: 30%;
+}
+
+
+
 
