@@ -70,6 +70,7 @@ header nav ul li a {
 
 .hero-info ul li {
     color: #ffffff;
+    font-weight: bold;
     font-size: 30px;
     text-shadow: 0 0 10px rgba(255, 51, 153, 0.5);
 }
@@ -85,18 +86,17 @@ header nav ul li a {
 }
 
 .content-container {
-    margin-top: 15px;
+    margin: 15px 15px 15px 15px;
     width: 50%;
-    display: flex
-    margin-left: 20px;
+    display: inline-block;
     background-color: #b5ead7;
     border: solid #ffffff;
-    align-items: center;
     text-align: center;
+    align-items: center;
 }
 
 .content-container h1 {
-    color: #ffffff;
+    margin: 15px 0 15px 0;
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
@@ -115,7 +115,32 @@ header nav ul li a {
 
 .container-content p {
     font-weight: bolder;
-    padding: 3px;
-    text-shadow: 0 0 10px rgba(51, 255, 153, 0.5);
+    font-size: larger;
+    padding: 3px 0 3px 0;
+    text-shadow: 0 0 10px rgba(51, 255, 153, 0.8);
+}
+
+.about-me {
+    margin: 15px 15px 15px 15px;
+    float: right;
+    width: 40%;
+    display: inline-block;
+    background-color: #c7ceea;
+    border: solid #ffffff;
+    text-align: center;
+    align-items: center;
+}
+
+.about-me img {
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.about-me h1 {
+    margin: 15px 0 15px 0;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(153, 51, 255, 0.5);
 }
 
