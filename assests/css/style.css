@@ -25,7 +25,7 @@ header h1 a {
 }
 
 header nav {
-    margin: 7px 0;
+    margin: 10px 0;
 }
 
 header nav ul {
@@ -41,33 +41,46 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 30px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(255, 51, 153, 0.5);
     text-decoration: none;
 }
 
 .hero {
-    height: 400px;
-    border: solid #ffffff;
-    background-color: #f3a8ae;
+    width: auto;
+    margin: 0 15px 0 15px;
+    background-color: #ffb7b2;
+    border: solid #ffffff 3px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+    justify-content: space-around;
 }
 
-.hero-info ol li {
+.hero-info { 
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    border: 5px;
+    padding: 15px;
+}
+
+.hero-info ul {
+    line-height: 2.5;
+    text-decoration: dotted;
+}
+
+.hero-info ul li {
     color: #ffffff;
-    position: center;
-    text-decoration: none;
+    font-size: 30px;
+    text-shadow: 0 0 10px rgba(255, 51, 153, 0.5);
 }
 
 .hero-image {
+    display: flex;
+    justify-content: center;
     width: 400px;
     height: 394px;
-    background-color: #f3a8ae;
     background-image: url(../images/panda.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    align-items: center;
 }
 
 
