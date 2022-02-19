@@ -49,7 +49,7 @@ header nav ul li a {
 .hero {
     width: auto;
     margin: 0 15px 0 15px;
-    background-color: #ffb7b2;
+    background-color: #f8b4b0;
     border: solid #ffffff 3px;
     display: flex;
     justify-content: space-around;
@@ -59,7 +59,6 @@ header nav ul li a {
     display: flex;
     align-items: center;
     margin: 30px;
-    border: 5px;
     padding: 15px;
 }
 
@@ -122,9 +121,8 @@ header nav ul li a {
 
 .about-me {
     margin: 15px 15px 15px 15px;
-    float: right;
     width: 40%;
-    display: inline-block;
+    float: right;
     background-color: #c7ceea;
     border: solid #ffffff;
     text-align: center;
@@ -132,15 +130,24 @@ header nav ul li a {
 }
 
 .about-me img {
+    border: solid #ffffff;
     max-height: 50%;
     max-width: 50%;
 }
 
-.about-me h1 {
+.about-me h1, .about-me h2 {
     margin: 15px 0 15px 0;
     font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
     text-shadow: 0 0 10px rgba(153, 51, 255, 0.5);
+}
+
+.about-me h2 {
+    margin-bottom: 3px;
+}
+
+.about-me p {
+
 }
 
