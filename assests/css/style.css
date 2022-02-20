@@ -1,20 +1,24 @@
+/* Root Styling: two colors used repeatedly through site*/
 :root {
     --primary-color: #ffffff;
     --secondary-color: #757575;
   }
 
+  /*Base rules for website*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Base styling rules used throughout site*/
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #ff9AA2;
     color: var(--primary-color);
 }
 
+/* Styling for Header begins*/
 header {
     padding: 10px 35px;
     display: flex;
@@ -52,6 +56,9 @@ header nav ul li a:hover {
     font-weight: bold;
 }
 
+/* End of Header styling*/
+
+/* Beginning of Hero styling - parent has three children list, image, spotify player*/
 .hero {
     width: auto;
     margin: 0 15px 0 15px;
@@ -101,6 +108,9 @@ header nav ul li a:hover {
     text-align: center;
 }
 
+/* End of Hero styling*/
+
+/* Beginning of Current Works styling - left side of page*/
 .content-container {
     margin: 15px 15px 15px 15px;
     width: 50%;
@@ -143,6 +153,9 @@ header nav ul li a:hover {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
+/* End of Current Works styling*/
+
+/* Beginning of About Me Styling - right of page. Includes Contact Me*/
 .about-me-section {
     margin: 15px 15px 15px 15px;
     width: 40%;
@@ -203,6 +216,9 @@ header nav ul li a:hover {
     margin: 15px 15px 15px 15px;
 }
 
+/*End of About Me*/
+
+/*Beginning of Footer styling*/
 footer {
     background-color: #e2f0cb;
     margin: 0px 15px 0px 15px;
@@ -222,8 +238,9 @@ footer a {
 footer a:hover {
     font-weight: bold;
 }
+/*End of Footer styler - End of site*/
 
-
+/*Styling consideration for smaller screens*/
 @media screen and (max-width: 980px){
     
     header {
