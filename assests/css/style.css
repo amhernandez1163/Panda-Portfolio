@@ -72,7 +72,8 @@ header nav ul li a:hover {
     display: flex;
     align-items: center;
     margin: 30px;
-    padding: 15px;
+    text-align: center;
+    padding: 20px;
 }
 
 .hero-list ul {
@@ -89,17 +90,18 @@ header nav ul li a:hover {
 
 .hero-image {
     display: flex;
-    width: 400px;
+    width: 33.33%;
     background-image: url(../images/panda.jpg);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    position: relative;
+    justify-content: center;
 }
 
 .spotify-player {
     align-items: center;
     text-align: center;
     margin: 30px;
-    padding: 15px;
 }
 
 .spotify-player h1 {
