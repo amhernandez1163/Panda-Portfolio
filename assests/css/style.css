@@ -205,10 +205,10 @@ header nav ul li a:hover {
 
 footer {
     background-color: #e2f0cb;
-    margin: 15px 15px 15px 15px;
+    margin: 0px 15px 0px 15px;
     border: solid #ffffff;
     height: 100%;
-    align-items: center;
+    text-align: center;
 }
 
 footer a {
@@ -258,12 +258,12 @@ footer a:hover {
     }
 
     .hero-image {
+        background-size: cover;
         width: 100%;
-        flex: 0 100%;
     }
 
     .spotify-player {
-        width: 100%;
+        width: 70%;
         text-align: center;
     }
 
