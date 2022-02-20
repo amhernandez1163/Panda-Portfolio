@@ -22,12 +22,8 @@ header {
     justify-content: space-between;
     top: 0;
     position: static;
-}
-
-header h1 a {
-    text-decoration: none;
     color: var(--primary-color);
-    font-size: 48px;
+    font-size: 35px;
 }
 
 header nav {
@@ -86,22 +82,23 @@ header nav ul li a:hover {
 
 .hero-image {
     display: flex;
-    justify-content: center;
     width: 400px;
-    height: 394px;
     background-image: url(../images/panda.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .spotify-player {
     align-items: center;
     text-align: center;
+    margin: 30px;
+    padding: 15px;
 }
 
 .spotify-player h1 {
     text-shadow: 0 0 10px rgba(255, 51, 153, 0.5);
     margin: 15px 15px 15px 15px;
+    text-align: center;
 }
 
 .content-container {
@@ -211,6 +208,7 @@ footer {
     margin: 15px 15px 15px 15px;
     border: solid #ffffff;
     height: 100%;
+    align-items: center;
 }
 
 footer a {
@@ -219,8 +217,6 @@ footer a {
     font-weight: bold;
     text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
     text-decoration: none;
-    text-align: center;
-    justify-content: space-around;
 }
 
 footer a:hover {
@@ -271,6 +267,10 @@ footer a:hover {
         text-align: center;
     }
 
+    .spotify-player h1 {
+        width: 100%;
+    }
+
     .content-container {
         width: 100%;
         text-align: center;
@@ -304,11 +304,11 @@ footer a:hover {
     .hero {
         flex: 0 100%;
     }
+
+    .hero-image {
+        flex: 0 100%;
+        text-align: center;
+    }
+
 }
 
-
-/*Media Query for Mobile Phones and Smaller*/
-@media screen and (max-width: 575px) {
-
-
-}
